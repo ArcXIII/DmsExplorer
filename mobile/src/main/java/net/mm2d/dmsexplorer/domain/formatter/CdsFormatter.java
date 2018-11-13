@@ -211,7 +211,7 @@ public class CdsFormatter {
         if (str == null) {
             return null;
         }
-        final Date date =  object.getDateValue(CdsObject.DC_DATE);
+        final Date date = object.getDateValue(CdsObject.DC_DATE);
         if (date == null) {
             return null;
         }
